@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DigiSkills — Leer. Oefen. Ontdek.</title>
+  <meta name="description" content="DigiSkills — digitale vaardigheden voor slimme doeners.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="brand" data-page="home" aria-label="DigiSkills home"><span>Digi</span><b>Skills</b><i>›</i></button>
+  <nav>
+    <button class="nav active" data-page="home">⌂ <span>Home</span></button>
+    <button class="nav" data-page="tips">💡 <span>Tips &amp; tricks</span></button>
+    <button class="nav" data-page="about">ⓘ <span>Over DigiSkills</span></button>
+  </nav>
+</header>
+<main>
+  <section class="page show" id="home">
+    <div class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">DIGITALE VAARDIGHEDEN VOOR SLIMME DOENERS</p>
+        <h1>Leer. Oefen.<br><em>Ontdek.</em></h1>
+        <p>Klaar om slimmer om te gaan met digitale technologie?<br>Kies je leerjaar en ontdek wat jij allemaal kan.</p>
+        <button class="primary" data-scroll="years">Ontdek de missies <span>→</span></button>
+      </div>
+      <div class="hero-art hero-art-image" aria-hidden="true">
+        <img src="assets/l4-hero.png" alt="Digitale vaardigheden" class="home-hero-image">
+      </div>
+    </div>
+    <section class="section" id="years">
+      <div class="section-head"><div><p class="kicker">START HIER</p><h2>Kies je leerjaar</h2></div><p>Kies je missie en ga aan de slag!</p></div>
+      <div class="years">
+        <button class="year l4" data-year="L4"><div><strong>L4</strong><p>Ontdek de digitale skills.</p></div><span class="round">→</span><div class="mini l4-card-art"><img src="assets/l4.png" alt="" /></div></button>
+        <button class="year l5" data-year="L5"><div><strong>L5</strong><p>Binnenkort beschikbaar.</p></div><span class="round">→</span><div class="mini year-card-art"><img src="assets/l5.png" alt="" /></div></button>
+        <button class="year l6" data-year="L6"><div><strong>L6</strong><p>Binnenkort beschikbaar.</p></div><span class="round">→</span><div class="mini year-card-art"><img src="assets/l6.png" alt="" /></div></button>
+      </div>
+    </section>
+  </section>
+
+  <section class="page" id="l4">
+    <div class="top"><button class="back" data-page="home">← Terug naar startpagina</button></div>
+    <div class="grade-head"><div><p class="kicker">DIGISKILLS · L4</p><h2>L<span>4</span></h2><p>Kies een missie en ga aan de slag!</p></div><div class="grade-art grade-art-clean" aria-hidden="true"><div class="grade-device"><div class="grade-screen"><span class="grade-window"></span><span class="grade-line line-a"></span><span class="grade-line line-b"></span><span class="grade-line line-c"></span></div><div class="grade-base"></div></div><span class="grade-spark spark-1">✦</span><span class="grade-spark spark-2">•</span><span class="grade-spark spark-3">✦</span></div>
+    <div class="missions">
+      <button class="mission blue" data-mission="comm"><div class="mission-art image-art"><img src="assets/comm.png" alt="" /></div><div><small>MISSIE 1</small><h3>Digitaal communiceren</h3><p>Verzenden · ontvangen · online · offline</p></div><span class="round">→</span></button>
+      <button class="mission green" data-mission="thinking"><div class="mission-art image-art"><img src="assets/robot.png" alt="" /></div><div><small>MISSIE 2</small><h3>Denken als een computer</h3><p>Algoritmes · patronen · problemen oplossen</p></div><span class="round">→</span></button>
+      <button class="mission yellow" data-mission="working"><div class="mission-art image-art"><img src="assets/folder.png" alt="" /></div><div><small>MISSIE 3</small><h3>Digitaal werken</h3><p>Toetsenbord · apparaten · bestanden · mappen</p></div><span class="round">→</span></button>
+      <button class="mission purple wide" data-mission="soon"><div class="mission-art image-art"><img src="assets/search.png" alt="" /></div><div><small>MISSIE 4</small><h3>Slim zoeken</h3><p>Zoekvragen · zoekwoorden · resultaten beoordelen</p></div><span class="round">→</span></button>
+      <button class="mission pink wide" data-mission="soon"><div class="mission-art image-art"><img src="assets/safety.png" alt="" /></div><div><small>MISSIE 5</small><h3>Veilig online</h3><p>Privacy · persoonlijke gegevens · veilig gedrag</p></div><span class="round">→</span></button>
+    </div>
+  </section>
+
+  <section class="page" id="mission">
+    <div class="mission-mode">
+      <div class="mission-topbar">
+        <button class="back" data-page="l4">← Terug naar L4</button>
+        <div class="mission-label" id="missionLabel">DIGISKILLS · MISSIE 1</div>
+        <div class="mission-step-count" id="missionStepCount">Stap 1 van 3</div>
+      </div>
+      <div class="mission-progress-simple">
+        <div><span id="prog"></span></div>
+        <b id="progText">0 / 3 voltooid</b>
+      </div>
+      <div class="activity" id="activity"></div>
+    </div>
+  </section>
+
+  <section class="page" id="tips">
+    <div class="top"><button class="back" data-page="home">← Terug naar startpagina</button></div>
+    <div class="simple-head"><p class="kicker">SNELLE HULP</p><h2>💡 Tips &amp; tricks</h2><p>Handige kleine trucjes voor slimmer digitaal werken.</p></div>
+    <div class="tip-grid"><article><b>⌨️</b><h3>Handige toetsen</h3><p>Ctrl + C, Ctrl + V, Ctrl + Z, Backspace en Shift.</p></article><article><b>🔎</b><h3>Slim zoeken</h3><p>Gebruik duidelijke zoekwoorden en kijk wie de informatie maakte.</p></article><article><b>📁</b><h3>Bestanden &amp; mappen</h3><p>Geef bestanden duidelijke namen en bewaar ze op de juiste plek.</p></article><article><b>🛡️</b><h3>Veilig online</h3><p>Deel geen wachtwoorden en denk na voor je iets deelt.</p></article><article><b>💻</b><h3>Computertrucjes</h3><p>Werk handig met vensters, tabbladen, zoom en screenshots.</p></article></div>
+  </section>
+
+  <section class="page" id="about">
+    <div class="top"><button class="back" data-page="home">← Terug naar startpagina</button></div>
+    <div class="about"><div class="logo-big"><span>Digi</span><b>Skills</b><i>›</i></div><p class="kicker">OVER DIGISKILLS</p><h2>Leer. Oefen. Ontdek.</h2><p>DigiSkills helpt leerlingen stap voor stap digitale vaardigheden ontdekken, oefenen en toepassen.</p><div class="pills"><span>🧠 Zelfstandig leren</span><span>🧩 Interactief oefenen</span><span>💻 Digitale skills</span></div></div>
+  </section>
+</main>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
